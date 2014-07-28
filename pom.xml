@@ -20,13 +20,13 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.beust</groupId>
+  <groupId>de.cismet</groupId>
   <artifactId>jcommander</artifactId>
   <packaging>jar</packaging>
   <name>JCommander</name>
   <version>1.36-SNAPSHOT</version>
-  <description>A Java framework to parse command line options with annotations.</description>
-  <url>http://beust.com/jcommander</url>
+  <description>cismet fork of the JCommander project which is a Java framework to parse command line options with annotations.</description>
+  <url>https://github.com/cismet/jcommander</url>
   <licenses>
     <license>
       <name>The Apache Software License, Version 2.0</name>
@@ -35,9 +35,9 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:git:git@github.com:cbeust/jcommander.git</connection>
-    <developerConnection>scm:git:git@github.com:cbeust/jcommander.git</developerConnection>
-    <url>git@github.com:cbeust/jcommander.git</url>
+    <connection>scm:git:git@github.com:cismet/jcommander.git</connection>
+    <developerConnection>scm:git:git@github.com:cismet/jcommander.git</developerConnection>
+    <url>git@github.com:cismet/jcommander.git</url>
   </scm>
 
   <developers>

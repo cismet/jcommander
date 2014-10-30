@@ -1,4 +1,4 @@
-JCommander
+JCommander [![Build Status](http://ci.cismet.de/buildStatus/icon?job=Jcommaner_fork)](https://ci.cismet.de/job/Jcommaner_fork/)
 ==========
 
 This is an annotation based parameter parsing framework for Java.

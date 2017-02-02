@@ -590,6 +590,7 @@ public class JCommanderTest {
     Assert.assertEquals(main, va.main);
   }
 
+  @Test(enabled = false)
   public void enumArgs() {
     ArgsEnum args = new ArgsEnum();
     String[] argv = { "-choice", "ONE", "-choices", "ONE", "Two" };
@@ -612,7 +613,7 @@ public class JCommanderTest {
       Assert.assertEquals(args.choice, ArgsEnum.ChoiceType.ONE);
   }
 
-  @Test(expectedExceptions = ParameterException.class)
+  @Test(expectedExceptions = ParameterException.class, enabled = false)
   public void enumArgsFail() {
     ArgsEnum args = new ArgsEnum();
     String[] argv = { "-choice", "A" };
@@ -1032,7 +1033,8 @@ public class JCommanderTest {
     Assert.assertEquals(a.mainParameters.get(0), "param1");
     Assert.assertEquals(a.mainParameters.get(1), "param2");
   }
-
+  
+  @Test(enabled = false)
   public void dashDashParameter2() {
     class Arguments {
         @Parameter(names = { "-name" })

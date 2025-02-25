@@ -29,7 +29,7 @@
     
     <groupId>de.cismet</groupId>
     <artifactId>jcommander</artifactId>
-    <version>9.0</version>
+    <version>9.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     
     <name>JCommander</name>
@@ -56,7 +56,7 @@
         <connection>scm:git:git@github.com:cismet/jcommander.git</connection>
         <developerConnection>scm:git:git@github.com:cismet/jcommander.git</developerConnection>
         <url>git@github.com:cismet/jcommander.git</url>
-        <tag>v9.0</tag>
+        <tag>HEAD</tag>
     </scm>
     
     <ciManagement>
